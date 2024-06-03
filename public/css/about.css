@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+}
+#container-navbar{
+    background-color: rgb(163, 163, 163);
+}
+#container-nav-menu{
+    width: 100%; 
+    margin: auto;
+}
+#nav-items{
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 20px;
+    color: black;
+}
+#container-content-1{
+    height: 100vh;
+    width: 100%;
+}
+#profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+#profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/IMG_7985.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#btn-profile-1{
+    background-color: rgb(216, 216, 216);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-footer{
+    width: 100%;
+}
+
+#footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+}
+
+#footer-items #item-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-items #item-1 h3{
+    margin: 5px 0;
+}
+
+#footer-items #item-1 #image-1{
+    height: 40px;
+    margin: 10px;
+}
+
+#footer-items #item-1 #image-2{
+    height: 55px;
+}
+
+#footer-items #item-1 #image-3{
+    height: 40px;
+    margin: 10px;
+
+}
